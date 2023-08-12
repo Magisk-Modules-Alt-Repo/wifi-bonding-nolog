@@ -25,7 +25,8 @@ su -c "/bin/ifconfig wlan0"
 3. To return to the default simply put the value you checked at the beginning in the following command and paste it into termux (or just reboot your device):
 su -c "/bin/ifconfig wlan0 txqueuelen valor"
 
-## Installation 
+## Installation
+0. Remove the old version first (and reboot)
 1. First delete your Wi-Fi password
 2. Uninstall previous version of this module (reboot)
 3. Install the module in Magisk (reboot)
