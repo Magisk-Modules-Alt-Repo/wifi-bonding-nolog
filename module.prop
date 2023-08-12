@@ -1,6 +1,0 @@
-id=wifi-bonding
-name=Wi-Fi Bonding NoLog [Qcom]
-version=v5
-versionCode=5
-author=simonsmh x 水龙&黎木汐 x @LeanHijosdesusMadres
-description=This module doubles your bandwidth and enables low latency mode, reduces the number of standby wakeups, and disables Wi-Fi packet logging (has high overhead and various related security issues) to save battery life. @modulostk [telegram]
