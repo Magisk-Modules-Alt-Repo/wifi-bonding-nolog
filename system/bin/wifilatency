@@ -1,0 +1,16 @@
+#https://source.android.com/docs/core/connect/wifi-low-latency
+echo "▸Please wait moment"
+sleep 2
+su -c "cmd wifi force-low-latency-mode enabled"
+sleep 2
+echo " "
+echo "░█████╗░███╗░░██╗"
+echo "██╔══██╗████╗░██║"
+echo "██║░░██║██╔██╗██║"
+echo "██║░░██║██║╚████║"
+echo "╚█████╔╝██║░╚███║"
+echo "░╚════╝░╚═╝░░╚══╝"
+echo "FORCE WI-FI LOW LATENCY MODE"
+echo " "
+echo "☬ @ModulOStk"
+echo " "
