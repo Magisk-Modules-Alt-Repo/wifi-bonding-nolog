@@ -3,9 +3,9 @@
 ![](https://i.ibb.co/0hMGsNj/1690350350097.png)
 
 ## Description
-This module doubles your bandwidth and Super and Low Latency TCP, reduces the number of standby wakeups, and disables Wi-Fi packet logging (has high overhead and various related security issues) to save battery life.
+This module doubles your bandwidth, disables Wi-Fi packet logging (has high overhead and several related security issues) and other logging for less background load and perhaps some battery life.
 
-## Details:
+## Others tweaks manual:
 - Force Wi-fi Low Latency Mode: This mode consumes more energy even if the screen is off if you want to activate it follow the steps below.
 1. Open Termux and type:
 su -c wifilatency
@@ -26,7 +26,6 @@ su -c "/bin/ifconfig wlan0"
 su -c "/bin/ifconfig wlan0 txqueuelen valor"
 
 ## Installation
-0. Remove the old version first (and reboot)
 1. First delete your Wi-Fi password
 2. Uninstall previous version of this module (reboot)
 3. Install the module in Magisk (reboot)
@@ -45,11 +44,11 @@ su -c "/bin/ifconfig wlan0 txqueuelen valor"
 
 • [simonsmh for Wifi Bonding Module](https://github.com/Magisk-Modules-Repo/wifi-bonding)
 
-• [水龙&黎木汐 for reduces the number of standby wakeups](https://t.me/modulostk/3822)
+• [~~水龙&黎木汐 for reduces the number of standby wakeups~~](https://t.me/modulostk/3822)
 
 • [syphyr for disable wifi packet logging](https://gitea.rockhost.se/Piteball/android_device_samsung_msm8976-common/commit/be2d161200b87de43d7f4f86a8176efd5627b9b1)
 
-• [@Xizi1.5 for Super TCP](https://t.me/modulostk/99)
+• [~~@Xizi1.5 for Super TCP~~](https://t.me/modulostk/99)
 
 • [Zackptg5 for the MMT-Ex template](https://github.com/Zackptg5)
 
